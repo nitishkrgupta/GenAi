@@ -1,0 +1,766 @@
+====================================================================
+ARTIFICIAL INTELLIGENCE (AI), MACHINE LEARNING (ML) AND
+DEEP LEARNING (DL) - A COMPLETE GUIDE
+====================================================================
+
+Table of Contents
+------------------
+1. Introduction
+2. What is Artificial Intelligence (AI)?
+3. History and Evolution of AI
+4. Types of Artificial Intelligence
+5. What is Machine Learning (ML)?
+6. How Machine Learning Works
+7. Types of Machine Learning
+   7.1 Supervised Learning
+   7.2 Unsupervised Learning
+   7.3 Semi-Supervised Learning
+   7.4 Reinforcement Learning
+8. Common Machine Learning Algorithms
+9. What is Deep Learning (DL)?
+10. How Deep Learning Works
+11. Neural Network Architectures
+12. Difference Between AI, ML and DL
+13. Applications of AI, ML and DL
+14. Popular Tools and Frameworks
+15. Challenges and Limitations
+16. Ethics and Responsible AI
+17. Future Trends
+18. Conclusion
+19. Glossary of Terms
+
+====================================================================
+1. INTRODUCTION
+====================================================================
+
+Artificial Intelligence, Machine Learning, and Deep Learning are three
+of the most talked-about technologies of the twenty-first century.
+They are reshaping industries, changing how businesses operate, and
+influencing everyday life in ways most people do not even notice.
+From voice assistants like Siri and Alexa, to recommendation systems
+on Netflix and Amazon, to self-driving cars and medical diagnosis
+tools, these technologies are everywhere.
+
+Even though the three terms are often used interchangeably in casual
+conversation, they are not the same thing. Artificial Intelligence is
+the broadest concept, Machine Learning is a subset of AI, and Deep
+Learning is a further subset of Machine Learning. Understanding the
+relationship between these three fields, along with their unique
+characteristics, is essential for anyone who wants to work in
+technology, data science, or any AI-adjacent field.
+
+This document provides a detailed overview of all three fields,
+explaining their definitions, history, types, algorithms, real-world
+applications, and the differences between them. It is designed to be
+a comprehensive reference that can be used by students, professionals,
+and enthusiasts who want to build a strong foundational understanding
+of AI, ML, and DL.
+
+====================================================================
+2. WHAT IS ARTIFICIAL INTELLIGENCE (AI)?
+====================================================================
+
+Artificial Intelligence refers to the simulation of human intelligence
+in machines that are programmed to think, reason, and learn like
+humans. The term was coined by John McCarthy in 1956 during the
+Dartmouth Conference, which is widely considered the birth of AI as
+an academic discipline.
+
+At its core, AI is about building systems that can perform tasks that
+would normally require human intelligence. These tasks include:
+
+- Understanding natural language
+- Recognizing patterns and images
+- Making decisions
+- Solving problems
+- Learning from experience
+- Planning and reasoning
+- Understanding and generating speech
+
+AI is not a single technology but rather an umbrella term that
+encompasses many different techniques, approaches, and subfields,
+including Machine Learning, Deep Learning, Natural Language
+Processing, Computer Vision, Robotics, Expert Systems, and more.
+
+AI systems can range from very simple rule-based programs to
+extremely complex neural networks with billions of parameters. A
+simple thermostat that adjusts temperature based on a rule is a
+primitive form of automation, but it is not considered true AI unless
+it can adapt and learn. Modern AI systems, on the other hand, can
+learn from data, adapt to new situations, and improve their
+performance over time without being explicitly reprogrammed.
+
+====================================================================
+3. HISTORY AND EVOLUTION OF AI
+====================================================================
+
+The history of AI can be divided into several distinct phases:
+
+3.1 The Foundational Period (1940s - 1950s)
+The theoretical foundations of AI were laid by pioneers like Alan
+Turing, who proposed the famous "Turing Test" in 1950 to determine
+whether a machine could exhibit intelligent behavior indistinguishable
+from a human.
+
+3.2 The Birth of AI (1956)
+The term "Artificial Intelligence" was officially coined at the
+Dartmouth Conference in 1956, organized by John McCarthy, Marvin
+Minsky, Nathaniel Rochester, and Claude Shannon.
+
+3.3 The Golden Years (1956 - 1974)
+This period saw significant enthusiasm and funding for AI research.
+Early programs could solve algebra problems, prove theorems, and
+speak English.
+
+3.4 The First AI Winter (1974 - 1980)
+Due to unmet expectations and limited computing power, funding for AI
+research dried up, leading to what is known as the "AI Winter."
+
+3.5 The Boom of Expert Systems (1980s)
+AI research was revived with the development of "expert systems,"
+which were designed to mimic the decision-making abilities of human
+experts in specific domains.
+
+3.6 The Second AI Winter (Late 1980s - 1990s)
+Once again, inflated expectations led to disappointment and reduced
+funding.
+
+3.7 The Rise of Machine Learning (1990s - 2000s)
+As computing power increased and more data became available, the
+focus shifted from rule-based systems to statistical and machine
+learning approaches.
+
+3.8 The Deep Learning Revolution (2010s - Present)
+With the availability of massive datasets, powerful GPUs, and
+breakthroughs in neural network architectures, Deep Learning became
+the dominant approach for many AI tasks, leading to significant
+advances in image recognition, natural language processing, and
+generative AI.
+
+3.9 The Generative AI Era (2020s)
+The emergence of Large Language Models (LLMs) and generative AI tools
+capable of producing human-like text, images, audio, and video has
+marked a new chapter in AI history, bringing AI into mainstream use
+for millions of people worldwide.
+
+====================================================================
+4. TYPES OF ARTIFICIAL INTELLIGENCE
+====================================================================
+
+AI can be classified based on capabilities and functionalities.
+
+4.1 Based on Capabilities
+
+a) Narrow AI (Weak AI)
+Narrow AI refers to systems designed to perform a specific task, such
+as facial recognition, language translation, or playing chess. Most
+AI systems in use today, including virtual assistants and
+recommendation engines, fall under this category.
+
+b) General AI (Strong AI)
+General AI refers to a theoretical form of AI that possesses the
+ability to understand, learn, and apply knowledge across a wide range
+of tasks, similar to human intelligence. This form of AI does not yet
+exist.
+
+c) Super AI
+Super AI is a hypothetical form of AI that would surpass human
+intelligence in all aspects, including creativity, problem-solving,
+and emotional intelligence. This remains purely theoretical.
+
+4.2 Based on Functionality
+
+a) Reactive Machines
+These are the most basic AI systems, which do not have memory or the
+ability to learn from past experiences. They simply react to specific
+inputs. IBM's Deep Blue chess program is a classic example.
+
+b) Limited Memory
+These systems can use past experiences to inform future decisions.
+Most modern AI applications, including self-driving cars, fall into
+this category.
+
+c) Theory of Mind
+This is a more advanced form of AI that would be able to understand
+emotions, beliefs, and thoughts, and interact socially in a more
+human-like way. This remains largely in the research phase.
+
+d) Self-Aware AI
+This is a purely hypothetical form of AI that would have its own
+consciousness and self-awareness. It does not currently exist.
+
+====================================================================
+5. WHAT IS MACHINE LEARNING (ML)?
+====================================================================
+
+Machine Learning is a subset of Artificial Intelligence that focuses
+on building systems that can learn from data and improve their
+performance over time without being explicitly programmed for every
+task. Instead of following hardcoded rules, ML systems identify
+patterns in data and use those patterns to make predictions or
+decisions.
+
+The term "Machine Learning" was coined by Arthur Samuel in 1959, who
+defined it as "the field of study that gives computers the ability to
+learn without being explicitly programmed."
+
+In traditional programming, a programmer writes explicit rules that
+tell the computer exactly what to do. In Machine Learning, the
+approach is reversed: instead of writing rules, data and desired
+outcomes are given to the algorithm, and the algorithm learns the
+rules on its own.
+
+For example, instead of writing rules to detect spam emails, a
+machine learning model can be trained on thousands of examples of
+spam and non-spam emails. Over time, the model learns to identify
+patterns that distinguish spam from legitimate emails.
+
+====================================================================
+6. HOW MACHINE LEARNING WORKS
+====================================================================
+
+The typical Machine Learning workflow involves the following steps:
+
+Step 1: Data Collection
+Gathering relevant data from various sources such as databases, APIs,
+sensors, or the web.
+
+Step 2: Data Preprocessing
+Cleaning and preparing the data for analysis. This includes handling
+missing values, removing duplicates, normalizing data, and encoding
+categorical variables.
+
+Step 3: Feature Engineering
+Selecting and transforming the most relevant variables (features)
+that will be used to train the model.
+
+Step 4: Splitting the Data
+Dividing the dataset into training, validation, and test sets to
+evaluate model performance objectively.
+
+Step 5: Model Selection
+Choosing an appropriate algorithm based on the problem type
+(classification, regression, clustering, etc.).
+
+Step 6: Training the Model
+Feeding the training data into the algorithm so it can learn patterns
+and relationships.
+
+Step 7: Model Evaluation
+Testing the model's performance using metrics such as accuracy,
+precision, recall, F1-score, or mean squared error.
+
+Step 8: Hyperparameter Tuning
+Adjusting the model's settings to optimize performance.
+
+Step 9: Deployment
+Integrating the trained model into a real-world application.
+
+Step 10: Monitoring and Maintenance
+Continuously monitoring the model's performance and retraining it as
+needed with new data.
+
+====================================================================
+7. TYPES OF MACHINE LEARNING
+====================================================================
+
+7.1 SUPERVISED LEARNING
+------------------------
+Supervised learning involves training a model on a labeled dataset,
+meaning that each training example includes both the input data and
+the correct output. The goal is for the model to learn a mapping
+function that can predict the output for new, unseen inputs.
+
+Common supervised learning tasks include:
+
+a) Classification - Predicting a discrete category or label. Examples
+include spam detection, disease diagnosis, and image classification.
+
+b) Regression - Predicting a continuous numerical value. Examples
+include predicting house prices, stock prices, or temperature.
+
+Popular supervised learning algorithms include Linear Regression,
+Logistic Regression, Decision Trees, Random Forests, Support Vector
+Machines, and Gradient Boosting methods like XGBoost and LightGBM.
+
+7.2 UNSUPERVISED LEARNING
+---------------------------
+Unsupervised learning involves training a model on data that has no
+labeled outputs. The goal is to discover hidden patterns, structures,
+or relationships within the data.
+
+Common unsupervised learning tasks include:
+
+a) Clustering - Grouping similar data points together. Examples
+include customer segmentation and anomaly detection.
+
+b) Dimensionality Reduction - Reducing the number of variables while
+preserving important information. Examples include Principal
+Component Analysis (PCA) and t-SNE.
+
+c) Association Rule Learning - Discovering interesting relationships
+between variables in large datasets. A classic example is market
+basket analysis.
+
+Popular unsupervised learning algorithms include K-Means Clustering,
+Hierarchical Clustering, DBSCAN, PCA, and Autoencoders.
+
+7.3 SEMI-SUPERVISED LEARNING
+------------------------------
+Semi-supervised learning combines a small amount of labeled data with
+a large amount of unlabeled data during training. This approach is
+useful when labeling data is expensive or time-consuming, but large
+amounts of unlabeled data are readily available.
+
+7.4 REINFORCEMENT LEARNING
+----------------------------
+Reinforcement learning is a type of machine learning where an agent
+learns to make decisions by interacting with an environment and
+receiving feedback in the form of rewards or penalties. The agent's
+goal is to learn a policy that maximizes cumulative reward over time.
+
+Key concepts in reinforcement learning include:
+
+- Agent: The learner or decision-maker
+- Environment: The world the agent interacts with
+- State: A representation of the current situation
+- Action: A choice made by the agent
+- Reward: Feedback signal indicating how good or bad an action was
+- Policy: The strategy the agent uses to decide actions
+
+Reinforcement learning has been used to train AI systems to play
+games like Chess, Go, and complex video games, as well as to control
+robots and optimize resource allocation.
+
+====================================================================
+8. COMMON MACHINE LEARNING ALGORITHMS
+====================================================================
+
+8.1 Linear Regression
+A simple algorithm used to model the relationship between a dependent
+variable and one or more independent variables using a straight line.
+
+8.2 Logistic Regression
+Used for binary classification problems, predicting the probability
+that an instance belongs to a particular class.
+
+8.3 Decision Trees
+A tree-like model of decisions, where each internal node represents a
+test on a feature, each branch represents an outcome, and each leaf
+node represents a class label or value.
+
+8.4 Random Forest
+An ensemble learning method that combines multiple decision trees to
+improve accuracy and reduce overfitting.
+
+8.5 Support Vector Machines (SVM)
+A powerful algorithm used for classification and regression tasks
+that finds the optimal boundary (hyperplane) that separates classes.
+
+8.6 K-Nearest Neighbors (KNN)
+A simple algorithm that classifies data points based on the majority
+class among their nearest neighbors.
+
+8.7 Naive Bayes
+A probabilistic algorithm based on Bayes' Theorem, commonly used for
+text classification tasks like spam filtering.
+
+8.8 K-Means Clustering
+An unsupervised algorithm that partitions data into K clusters based
+on similarity.
+
+8.9 Gradient Boosting (XGBoost, LightGBM, CatBoost)
+Ensemble methods that build models sequentially, with each new model
+correcting errors made by previous models.
+
+8.10 Principal Component Analysis (PCA)
+A dimensionality reduction technique used to simplify complex
+datasets while preserving as much variance as possible.
+
+====================================================================
+9. WHAT IS DEEP LEARNING (DL)?
+====================================================================
+
+Deep Learning is a specialized subset of Machine Learning that uses
+artificial neural networks with multiple layers (hence "deep") to
+model and understand complex patterns in data. Deep Learning is
+inspired by the structure and function of the human brain, where
+interconnected neurons process and transmit information.
+
+Unlike traditional machine learning algorithms, which often require
+manual feature engineering, deep learning models can automatically
+learn hierarchical representations of data directly from raw inputs.
+This makes deep learning particularly powerful for tasks involving
+unstructured data such as images, audio, video, and text.
+
+Deep Learning has been the driving force behind many recent AI
+breakthroughs, including:
+
+- Image and facial recognition
+- Speech recognition and synthesis
+- Natural language understanding and generation
+- Autonomous vehicles
+- Generative AI (text, image, video, and audio generation)
+- Medical image analysis
+- Recommendation systems
+
+====================================================================
+10. HOW DEEP LEARNING WORKS
+====================================================================
+
+Deep Learning models are built using artificial neural networks,
+which consist of layers of interconnected nodes (neurons). Each
+network typically has:
+
+a) Input Layer - Receives the raw data (e.g., pixel values of an
+image, or words in a sentence).
+
+b) Hidden Layers - Perform computations and extract features from the
+data. Deep networks have many hidden layers, allowing them to learn
+increasingly abstract representations.
+
+c) Output Layer - Produces the final prediction or classification.
+
+Each connection between neurons has an associated weight, and each
+neuron has an activation function that determines whether and how
+strongly it "fires." During training, the network adjusts these
+weights using a process called backpropagation, which calculates the
+error between the predicted output and the actual output, and updates
+the weights to minimize this error using optimization algorithms like
+Gradient Descent.
+
+Key concepts in Deep Learning include:
+
+- Activation Functions (ReLU, Sigmoid, Tanh, Softmax)
+- Loss Functions (Mean Squared Error, Cross-Entropy Loss)
+- Optimizers (SGD, Adam, RMSprop)
+- Backpropagation
+- Epochs, Batches, and Learning Rate
+- Overfitting and Regularization (Dropout, L1/L2 Regularization)
+
+====================================================================
+11. NEURAL NETWORK ARCHITECTURES
+====================================================================
+
+11.1 Artificial Neural Networks (ANN)
+The most basic form of neural network, consisting of fully connected
+layers. Suitable for structured data and simple pattern recognition
+tasks.
+
+11.2 Convolutional Neural Networks (CNN)
+Primarily used for image and video processing tasks. CNNs use
+convolutional layers to automatically detect spatial features like
+edges, shapes, and textures.
+
+11.3 Recurrent Neural Networks (RNN)
+Designed for sequential data such as time series, speech, and text.
+RNNs have connections that loop back, allowing them to maintain a
+form of memory of previous inputs.
+
+11.4 Long Short-Term Memory Networks (LSTM)
+A special type of RNN designed to overcome the vanishing gradient
+problem, allowing the network to learn long-term dependencies in
+sequential data.
+
+11.5 Transformers
+A revolutionary architecture introduced in 2017 that relies on a
+mechanism called "self-attention" to process sequential data in
+parallel rather than sequentially. Transformers are the foundation of
+modern Large Language Models (LLMs) like GPT and Claude.
+
+11.6 Generative Adversarial Networks (GANs)
+Consist of two neural networks, a generator and a discriminator, that
+compete against each other to produce realistic synthetic data such
+as images.
+
+11.7 Autoencoders
+Neural networks designed to learn efficient, compressed
+representations of data, often used for dimensionality reduction and
+anomaly detection.
+
+====================================================================
+12. DIFFERENCE BETWEEN AI, ML AND DL
+====================================================================
+
+Artificial Intelligence (AI):
+- The broadest concept encompassing all techniques that enable
+  machines to mimic human intelligence.
+- Includes rule-based systems, expert systems, robotics, and more.
+- Does not always involve learning from data.
+
+Machine Learning (ML):
+- A subset of AI that focuses on algorithms that learn from data.
+- Requires structured or semi-structured data in many cases.
+- Often requires manual feature engineering.
+- Works well with smaller datasets compared to Deep Learning.
+
+Deep Learning (DL):
+- A subset of Machine Learning that uses multi-layered neural
+  networks.
+- Can automatically extract features from raw, unstructured data.
+- Requires large amounts of data and significant computational power.
+- Excels at complex tasks like image recognition and natural language
+  processing.
+
+In simple terms: AI is the goal, ML is one approach to achieve that
+goal, and DL is a specialized technique within ML that uses deep
+neural networks.
+
+====================================================================
+13. APPLICATIONS OF AI, ML AND DL
+====================================================================
+
+13.1 Healthcare
+- Disease diagnosis and prediction
+- Medical image analysis (X-rays, MRIs, CT scans)
+- Drug discovery and development
+- Personalized treatment recommendations
+
+13.2 Finance
+- Fraud detection
+- Algorithmic trading
+- Credit scoring and risk assessment
+- Customer service chatbots
+
+13.3 Retail and E-commerce
+- Product recommendation systems
+- Demand forecasting
+- Customer sentiment analysis
+- Dynamic pricing
+
+13.4 Transportation
+- Self-driving vehicles
+- Traffic prediction and optimization
+- Route planning
+
+13.5 Entertainment
+- Content recommendation (Netflix, Spotify, YouTube)
+- Content generation (music, art, video)
+
+13.6 Manufacturing
+- Predictive maintenance
+- Quality control through computer vision
+- Supply chain optimization
+
+13.7 Agriculture
+- Crop monitoring and yield prediction
+- Pest and disease detection
+- Precision farming
+
+13.8 Natural Language Processing Applications
+- Chatbots and virtual assistants
+- Language translation
+- Sentiment analysis
+- Text summarization
+
+====================================================================
+14. POPULAR TOOLS AND FRAMEWORKS
+====================================================================
+
+14.1 Programming Languages
+- Python (most popular for AI/ML/DL)
+- R (popular for statistical analysis)
+- Java
+- C++
+
+14.2 Machine Learning Libraries
+- Scikit-learn
+- XGBoost
+- LightGBM
+- CatBoost
+
+14.3 Deep Learning Frameworks
+- TensorFlow
+- PyTorch
+- Keras
+- JAX
+
+14.4 Data Processing and Analysis
+- Pandas
+- NumPy
+- Apache Spark
+
+14.5 Visualization Tools
+- Matplotlib
+- Seaborn
+- Plotly
+
+14.6 Cloud AI Platforms
+- Google Cloud AI Platform
+- Amazon SageMaker
+- Microsoft Azure Machine Learning
+
+====================================================================
+15. CHALLENGES AND LIMITATIONS
+====================================================================
+
+15.1 Data Quality and Quantity
+ML and DL models require large amounts of high-quality data. Poor
+data quality can lead to inaccurate or biased models.
+
+15.2 Computational Resources
+Training deep learning models, especially large ones, requires
+significant computational power, often involving specialized hardware
+like GPUs and TPUs.
+
+15.3 Interpretability
+Many deep learning models function as "black boxes," making it
+difficult to understand how they arrive at specific decisions.
+
+15.4 Overfitting
+Models can sometimes perform very well on training data but fail to
+generalize to new, unseen data.
+
+15.5 Bias and Fairness
+Models can inherit and even amplify biases present in training data,
+leading to unfair or discriminatory outcomes.
+
+15.6 Cost
+Developing, training, and deploying AI systems can be expensive,
+particularly for smaller organizations.
+
+====================================================================
+16. ETHICS AND RESPONSIBLE AI
+====================================================================
+
+As AI systems become more integrated into everyday life, ethical
+considerations have become increasingly important. Key areas of focus
+include:
+
+- Fairness: Ensuring AI systems do not discriminate against
+  individuals or groups.
+- Transparency: Making AI decision-making processes understandable.
+- Accountability: Establishing clear responsibility for AI system
+  outcomes.
+- Privacy: Protecting individuals' personal data used to train and
+  operate AI systems.
+- Safety: Ensuring AI systems behave reliably and do not cause harm.
+- Human Oversight: Maintaining meaningful human control over
+  important AI-driven decisions.
+
+Organizations and governments worldwide are developing guidelines and
+regulations to ensure AI is developed and deployed responsibly.
+
+====================================================================
+17. FUTURE TRENDS
+====================================================================
+
+17.1 Generative AI
+Continued advancement of models capable of generating text, images,
+video, music, and code.
+
+17.2 Multimodal AI
+Systems that can process and generate multiple types of data (text,
+images, audio, video) simultaneously.
+
+17.3 Edge AI
+Running AI models directly on local devices rather than relying on
+cloud computing, enabling faster and more private processing.
+
+17.4 AI Agents
+Autonomous systems capable of performing complex, multi-step tasks
+with minimal human intervention.
+
+17.5 Explainable AI (XAI)
+Development of techniques to make AI decision-making more transparent
+and interpretable.
+
+17.6 AI in Scientific Discovery
+Using AI to accelerate research in fields like drug discovery,
+materials science, and climate modeling.
+
+17.7 Democratization of AI
+Making AI tools and platforms more accessible to individuals and
+smaller organizations through no-code and low-code solutions.
+
+====================================================================
+18. CONCLUSION
+====================================================================
+
+Artificial Intelligence, Machine Learning, and Deep Learning represent
+a continuum of technologies that are transforming nearly every aspect
+of modern life. While AI is the overarching field aimed at creating
+intelligent systems, ML provides the tools for machines to learn from
+data, and DL pushes these capabilities further through deep neural
+networks capable of handling complex, unstructured data.
+
+Understanding the distinctions and relationships between these three
+fields is crucial for anyone looking to work in technology, data
+science, or related industries. As these technologies continue to
+evolve, they will undoubtedly bring both immense opportunities and
+significant challenges, making it essential for individuals,
+organizations, and governments to approach their development and
+deployment thoughtfully and responsibly.
+
+====================================================================
+19. GLOSSARY OF TERMS
+====================================================================
+
+Algorithm - A set of rules or instructions given to a computer to
+help it learn on its own.
+
+Artificial Intelligence (AI) - The simulation of human intelligence
+in machines.
+
+Backpropagation - A method used in neural networks to calculate the
+gradient of the loss function and update weights.
+
+Bias - Systematic error introduced into a model, often due to
+unrepresentative training data.
+
+Classification - A supervised learning task involving predicting
+discrete categories.
+
+Clustering - An unsupervised learning task involving grouping similar
+data points.
+
+Convolutional Neural Network (CNN) - A neural network architecture
+commonly used for image processing.
+
+Data Preprocessing - The process of cleaning and preparing raw data
+for analysis.
+
+Deep Learning (DL) - A subset of ML using multi-layered neural
+networks.
+
+Epoch - One complete pass through the entire training dataset.
+
+Feature - An individual measurable property used as input to a model.
+
+Gradient Descent - An optimization algorithm used to minimize the
+loss function.
+
+Hyperparameter - A configuration setting used to control the learning
+process.
+
+Label - The correct output or answer associated with a training
+example.
+
+Loss Function - A function that measures the difference between
+predicted and actual values.
+
+Machine Learning (ML) - A subset of AI focused on algorithms that
+learn from data.
+
+Model - The output of a machine learning algorithm trained on data.
+
+Neural Network - A computing system inspired by the human brain,
+consisting of interconnected nodes.
+
+Overfitting - When a model performs well on training data but poorly
+on new data.
+
+Regression - A supervised learning task involving predicting
+continuous values.
+
+Reinforcement Learning - A learning paradigm where an agent learns
+through rewards and penalties.
+
+Supervised Learning - Learning from labeled data.
+
+Training Data - The dataset used to train a machine learning model.
+
+Transformer - A neural network architecture based on self-attention
+mechanisms, foundational to modern language models.
+
+Unsupervised Learning - Learning from unlabeled data.
