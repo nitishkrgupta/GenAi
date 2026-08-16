@@ -1,0 +1,127 @@
+# ARJUN SHARMA
+
+**Data Scientist | Machine Learning | Python | SQL | Generative AI**
+
+Bengaluru, Karnataka, India
++91 98765 43210 | [arjun.sharma@example.com](mailto:arjun.sharma@example.com)
+LinkedIn: linkedin.com/in/arjunsharma | GitHub: github.com/arjunsharma
+
+---
+
+## PROFESSIONAL SUMMARY
+
+Results-driven **Data Scientist** with 3+ years of experience in data analysis, machine learning, predictive modeling, and business intelligence. Skilled in Python, SQL, machine learning algorithms, statistical analysis, and data visualization. Experienced in developing end-to-end ML solutions, automating analytical workflows, and translating complex datasets into actionable business insights. Hands-on experience with NLP, recommendation systems, forecasting, and Generative AI applications.
+
+---
+
+## TECHNICAL SKILLS
+
+**Programming:** Python, SQL, R, Bash
+**Machine Learning:** Regression, Classification, Clustering, Decision Trees, Random Forest, XGBoost, SVM, K-Means
+**Deep Learning:** Neural Networks, CNN, LSTM, Transformers
+**Data Science:** Exploratory Data Analysis, Feature Engineering, Statistical Modeling, A/B Testing, Predictive Analytics
+**NLP & GenAI:** NLP, Text Classification, Sentiment Analysis, Embeddings, LLMs, Prompt Engineering, RAG
+**Visualization:** Power BI, Tableau, Matplotlib, Seaborn, Plotly
+**Databases:** MySQL, PostgreSQL, MongoDB
+**Cloud & Tools:** AWS, Azure, Docker, Git, Jupyter, MLflow
+**Libraries:** Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, XGBoost
+
+---
+
+## PROFESSIONAL EXPERIENCE
+
+### Data Scientist
+
+**TechNova Analytics Pvt. Ltd. — Bengaluru, India**
+*June 2023 – Present*
+
+* Developed and deployed machine learning models for customer churn prediction, improving identification of high-risk customers by **28%**.
+* Performed EDA and statistical analysis on datasets containing **5M+ customer records** to identify behavioral and revenue trends.
+* Built classification and regression models using Python, Scikit-learn, XGBoost, and TensorFlow.
+* Improved model performance by **15%** through feature engineering, hyperparameter optimization, and cross-validation.
+* Designed automated ETL and data-processing pipelines using Python and SQL, reducing manual reporting effort by **40%**.
+* Created interactive Power BI dashboards to monitor customer KPIs, revenue trends, and model predictions.
+* Collaborated with product and business teams to convert business requirements into data science solutions.
+* Implemented an NLP-based customer feedback classification system that categorized **50,000+ monthly reviews** into actionable themes.
+* Used MLflow to track experiments, model versions, and performance metrics.
+
+### Junior Data Scientist
+
+**DataBridge Solutions — Hyderabad, India**
+*July 2021 – May 2023*
+
+* Analyzed sales and customer datasets using Python, SQL, Pandas, and NumPy to identify business opportunities.
+* Developed a demand forecasting model that improved forecast accuracy by approximately **18%**.
+* Built customer segmentation models using K-Means clustering to support targeted marketing campaigns.
+* Created automated data-cleaning and preprocessing workflows, reducing repetitive analysis tasks by **30%**.
+* Developed Tableau dashboards for sales, customer retention, and product performance analysis.
+* Conducted statistical analysis and A/B testing to evaluate the effectiveness of marketing campaigns.
+* Worked with cross-functional teams to communicate model results and data-driven recommendations to non-technical stakeholders.
+
+---
+
+## KEY PROJECTS
+
+### Customer Churn Prediction System
+
+**Python | Scikit-learn | XGBoost | SQL | Power BI**
+
+* Built an end-to-end ML pipeline to predict customers likely to discontinue a subscription.
+* Performed data preprocessing, feature engineering, exploratory analysis, and model evaluation.
+* Compared Logistic Regression, Random Forest, and XGBoost models.
+* Achieved an **F1-score of 0.84** with the final XGBoost model.
+* Developed a Power BI dashboard to visualize churn probability and customer segments.
+
+### E-Commerce Recommendation Engine
+
+**Python | Pandas | Scikit-learn | Collaborative Filtering**
+
+* Developed a recommendation system using customer purchase history and product interaction data.
+* Implemented collaborative filtering and similarity-based recommendation techniques.
+* Designed the system to generate personalized product recommendations for individual users.
+* Improved recommendation click-through rate by approximately **17%** in a simulated A/B testing environment.
+
+### GenAI Resume & Document Assistant
+
+**Python | LLM | RAG | Vector Database | FastAPI**
+
+* Developed a prototype AI assistant capable of answering questions from uploaded resumes and business documents.
+* Implemented document chunking, embeddings, vector search, and Retrieval-Augmented Generation.
+* Built REST APIs using FastAPI for document processing and question answering.
+* Added prompt templates and response validation to improve answer consistency.
+
+---
+
+## EDUCATION
+
+### Bachelor of Technology — Computer Science & Engineering
+
+**ABC Institute of Technology, Bengaluru**
+2017 – 2021 | CGPA: 8.4/10
+
+---
+
+## CERTIFICATIONS
+
+* IBM Data Science Professional Certificate
+* AWS Certified Machine Learning – Specialty
+* Microsoft Power BI Data Analyst
+* Machine Learning Specialization — Coursera
+* SQL for Data Science — Coursera
+
+---
+
+## ACHIEVEMENTS
+
+* Received **"Best Data Innovation Award"** at TechNova Analytics in 2025.
+* Reduced monthly reporting time by **40%** through analytics automation.
+* Presented an NLP-based customer analytics solution to senior management.
+* Mentored two junior analysts on Python, SQL, and machine learning fundamentals.
+
+---
+
+## ADDITIONAL INFORMATION
+
+**Languages:** English, Hindi, Kannada
+**Availability:** Immediate
+**Work Preference:** Full-time | Hybrid | Remote
